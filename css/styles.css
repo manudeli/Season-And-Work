@@ -207,7 +207,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-transform: uppercase;
   white-space: nowrap;
   text-align: center;
@@ -292,6 +292,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 .input-group .btn {
   margin: 4px;
@@ -746,9 +747,11 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
+
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 6rem);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 6rem);
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
@@ -776,7 +779,7 @@ a {
 
 .feature {
   gap: 4rem 2rem;
-  margin: 12rem;
+  margin: 3rem;
 }
 
 .feature:first-of-type {
